@@ -15,9 +15,10 @@ array.push( id4 = document.querySelector(".id_menu4"));
 array.push( id5 = document.querySelector(".id_menu5"));
 array.push( id6 = document.querySelector(".id_menu6"));
 
-function nada(array){
+function remove(array){
 for (let i = 0; i < array.length; i++) {
     array[i].addEventListener("click", function () {
         home_menu.classList.remove("navMenu__show")
     })}};
+remove(array);
  
